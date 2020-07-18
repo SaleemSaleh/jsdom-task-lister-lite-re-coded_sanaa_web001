@@ -8,7 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
      let list = document.querySelector(".list ul");
      let li = document.createElement("li");
      li.innerHTML =`${input} `;
-     list.appendChild(li);
+     //list.appendChild(li);
+     console.log(li);
 
 
   });
