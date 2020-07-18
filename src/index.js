@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   let submit = document.getElementById('create-task-form');
   submit.addEventListener('submit', Submit);
-  
+
   function Submit (e){
     preventDefault();
     let input = document.getElementById("new-task-description").value = "Johnny Bravo";
@@ -11,5 +11,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
   }
 
-  
+
 });
