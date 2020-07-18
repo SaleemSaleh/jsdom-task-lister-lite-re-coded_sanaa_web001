@@ -8,6 +8,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   }
 
-  let submit = document.getElementById('id');
+  let submit = document.getElementById('create-task-form');
   submit.addEventListener('submit', Submit);
 });
