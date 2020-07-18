@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let input = document.getElementById("new-task-description").value;
      let list = document.querySelector(".list ul");
      let li = document.createElement("li");
-     li.textContent =`${input} `;
+     li.innerHTML =`${input} `;
      list.appendChild(li);
 
 
