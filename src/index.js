@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     e.preventDefault();
 
     let input = document.getElementById("new-task-description").value;
-    let list = document.querySelector("div.list ul");
+    let list = document.querySelector("list ul");
     list.innerHTML= `<li> ${input} </li>`;
 
 
