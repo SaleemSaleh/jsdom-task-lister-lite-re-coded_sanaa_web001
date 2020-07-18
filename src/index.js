@@ -5,10 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     e.preventDefault();
 
     let input = document.getElementById("new-task-description").value;
-    let list = document.querySelector("list ul");
-    var li = document.createElement("li");
-    li.textContent =`${input} `;
-    list..appendChild(li);
+  console.log(input);
 
 
   });
