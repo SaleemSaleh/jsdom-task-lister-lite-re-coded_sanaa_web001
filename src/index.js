@@ -6,10 +6,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let input = document.getElementById("new-task-description").value;
      let list = document.querySelector(".list ul");
-     let li = document.createElement("li");
-     li.innerHTML =`${input} `;
-     list.appendChild(li);
-     console.log(li);
+     let li = document.createElement('li');
+     //li.innerHTML =`${input} `;
+     //list.appendChild(li);
+     console.log(list);
 
 
   });
